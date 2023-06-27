@@ -1,0 +1,28 @@
+{
+  "comidas": [
+    {
+      "nombre": "Hamburguesa",
+      "descripcion": "Deliciosa hamburguesa con ingredientes frescos",
+      "precio": 20,
+      "imagen": "/assets/Hamburguesa.jpg"
+    },
+    {
+      "nombre": "Barbacoa",
+      "descripcion": "No es carne de perro",
+      "precio": 250,
+      "imagen": "/assets/pizza.jpg"
+    },
+    {
+      "nombre": "Pizza",
+      "descripcion": "Deliciosa pizza recién salida del horno",
+      "precio": 30,
+      "imagen": "/assets/pizza.jpg"
+    },
+    {
+      "nombre": "Sushi",
+      "descripcion": "Rolls de sushi preparados con los mejores ingredientes",
+      "precio": 25,
+      "imagen": "/assets/Sushi.jpg"
+    }
+  ]
+}

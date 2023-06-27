@@ -1,0 +1,44 @@
+h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 38px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.cursive {
+  font-style: italic;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(100% - 60px);
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  background-color: rgb(15, 156, 149);
+  position: relative;
+  margin: 10px;
+}
+
+.green-corner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(240, 237, 236, 0.692);
+  box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: orange;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}

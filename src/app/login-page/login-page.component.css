@@ -1,0 +1,41 @@
+.comidas-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.comida-card {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.comida-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.comida-nombre {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.comida-descripcion {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.agregar-btn {
+  background-color: orange;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}

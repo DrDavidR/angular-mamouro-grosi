@@ -1,0 +1,16 @@
+<div>
+  <h2>Elige una comida:</h2>
+  <div class="comidas-container">
+    <div *ngFor="let comida of comidas" class="comida-card">
+      <img [src]="comida.imagen" alt="Imagen de {{ comida.nombre }}">
+      <h3 class="comida-nombre">{{ comida.nombre }}</h3>
+      <p class="comida-descripcion">{{ comida.descripcion }}</p>
+      <div class="contador">
+        <button class="contador-btn" (click)="quitarDelCarrito(comida)">-</button>
+        <span class="contador-cantidad">{{ comida.cantidad }}</span>
+        <button class="contador-btn" (click)="agregarAlCarrito(comida)">+</button>
+      </div>
+      <button class="agregar-btn" (click)="agregarAlCarrito(comida)">Agregar al carrito</button>
+    </div>
+  </div>
+</div>

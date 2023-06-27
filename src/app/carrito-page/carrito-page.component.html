@@ -1,0 +1,12 @@
+<div>
+  <h2>Carrito de compras</h2>
+  <div class="carrito-container">
+    <div *ngFor="let comida of comidasEnCarrito; let i = index" class="comida-card">
+      <img [src]="comida.imagen" alt="Imagen de {{ comida.nombre }}">
+      <h3 class="comida-nombre">{{ comida.nombre }}</h3>
+      <p class="comida-descripcion">{{ comida.descripcion }}</p>
+      <p class="comida-cantidad">Cantidad: {{ comida.cantidad }}</p>
+      <button class="eliminar-btn" (click)="eliminarDelCarrito(i)">Eliminar del carrito</button>
+    </div>
+  </div>
+</div>
